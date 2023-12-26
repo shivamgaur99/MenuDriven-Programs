@@ -1,0 +1,18 @@
+package in.cdac.acts.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter @Setter
+public class Book {
+	private int id;
+	private String name;
+	private String author;
+	private String publisher;
+	private float price;
+
+}

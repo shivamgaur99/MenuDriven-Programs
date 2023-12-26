@@ -1,0 +1,29 @@
+package in.cdac.acts.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Book {
+	private int id;
+	private String name;
+	private String author;
+	private String publisher;
+	private float price;
+
+	@Override
+	public boolean equals(Object obj) {
+
+		return super.equals(obj);
+	}
+
+	@Override
+	public String toString() {
+		return String.format("%-10d%-45s%-20s%-20s%-8.2f", this.id, this.name, this.author, this.publisher, this.price);
+	}
+}

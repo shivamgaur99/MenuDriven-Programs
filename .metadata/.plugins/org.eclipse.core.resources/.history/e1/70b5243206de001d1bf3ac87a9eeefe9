@@ -1,0 +1,5 @@
+package in.cdac.acts.domain;
+
+public class Book {
+
+}

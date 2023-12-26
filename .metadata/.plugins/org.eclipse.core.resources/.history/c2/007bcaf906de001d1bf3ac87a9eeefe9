@@ -1,0 +1,10 @@
+package in.cdac.acts.domain;
+
+public class Book {
+	private int id;
+	private String name;
+	private String author;
+	private String publisher;
+	private String price;
+
+}
